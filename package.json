@@ -1,0 +1,16 @@
+{
+  "name": "pwa-gastronomia-franco-italiana",
+  "version": "1.0.0",
+  "description": "Um restaurante que mistura o melhor da Itália e da França. Seja bem-vindo e aproveite cada receita.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ."
+  },
+  "keywords": [],
+  "author": "Izinha Cares",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
