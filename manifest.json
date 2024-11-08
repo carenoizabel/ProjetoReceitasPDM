@@ -1,6 +1,11 @@
 {
-    "name": "Meu Restaurante Web App",
-    "short_name": "Restaurante Franco-Italiana",
+    "name": "La Cucina Franco-Italiana",
+    "short_name": "La Cucina",
+    "description": "Descubra as melhores receitas da culinária italiana e francesa",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white",
     "icons": [
         {
             "src": "images/pwa-icon-256.png",
@@ -18,12 +23,7 @@
             "type": "image/png",
             "purpose": "maskable"
         }
-    ],
-    "lang": "pt-BR",
-    "start_url": "/index.html",
-    "display": "standalone",
-    "background_color": "white",
-    "theme_color": "white"
+    ]
 }
 
 
