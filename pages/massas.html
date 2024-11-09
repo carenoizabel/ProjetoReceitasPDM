@@ -4,16 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Massas - La Cucina Franco-Italiana</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #1E90FF;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .receitas-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap; 
+            justify-content: center;
+            max-width: 1200px;
+        }
+        .receita-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .receita-card:hover {
+            transform: translateY(-5px);
+        }
+        .receita-titulo {
+            background-color: #1E90FF;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .receita-imagem {
+            width: 100%;
+            height: auto;
+        }
+        .secao-titulo {
+            margin: 10px 0;
+            color: #1E90FF;
+            font-weight: bold;
+        }
+        .ingredientes-lista, .preparo-lista {
+            margin: 0 20px 20px;
+            padding-left: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Massas</h1>
         <nav>
             <ul>
-                <li><a href="../index.html">Início</a></li>
-                <li><a href="/pages/doces.html">Doces</a></li>
-                <li><a href="/pages/carnes.html">Carnes</a></li>
+                <li><a href="../index">Início</a></li>
+                <li><a href="/pages/doces">Doces</a></li>
+                <li><a href="/pages/carnes">Carnes</a></li>
             </ul>
         </nav>
     </header>

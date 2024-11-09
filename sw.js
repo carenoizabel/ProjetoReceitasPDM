@@ -1,6 +1,23 @@
 let cacheName = "my-first-pwa";
-let filesToCache = ["/", "/index.html", 
-                "/css/style.css", "/js/main.js"];
+let filesToCache = [
+  "/",
+  "/index.html",
+  "/css/style.css",
+  "/js/main.js",
+  "/pages/massas.html",
+  "/pages/doces.html",
+  "/pages/carnes.html",
+  "/images/carbonara.png",
+  "/images/coq-au-vin.png",
+  "/images/creme-brulee.png",
+  "/images/logotipofi.png",
+  "/images/ossobuco.png",
+  "/images/profiteroles.png",
+  "/images/ratatouille.png",
+  "/images/ravioli.png",
+  "/images/saltimbocca.png",
+  "/images/tiramisu.png",
+];
 
 /* inicializando a service worker e fazendo o 
 download do conteúdo da aplicação */
@@ -20,4 +37,3 @@ self.addEventListener("fetch", (e) => {
     })
   );
 });
-
