@@ -4,9 +4,10 @@ let filesToCache = [
   "/index.html",
   "/css/style.css",
   "/js/main.js",
-  "/pages/massas.html",
-  "/pages/doces.html",
-  "/pages/carnes.html",
+  "/manifest.json",
+  "/massas.html",
+  "/doces.html",
+  "/carnes.html",
   "/images/carbonara.png",
   "/images/coq-au-vin.png",
   "/images/creme-brulee.png",
@@ -17,6 +18,8 @@ let filesToCache = [
   "/images/ravioli.png",
   "/images/saltimbocca.png",
   "/images/tiramisu.png",
+  "/images/pwa-icon-256.png",
+  "/images/pwa-icon-512.png",
 ];
 
 /* inicializando a service worker e fazendo o 
